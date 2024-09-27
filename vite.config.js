@@ -7,5 +7,8 @@ export default defineConfig({
   plugins: [reactRefresh()],
   build: {
     outDir: './build',
+  },
+  optimizeDeps: {
+    include: ["tsparticles"]
   }
 })

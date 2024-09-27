@@ -3,12 +3,12 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // Correctly set to 'class' for class-based dark mode
   theme: {
-    extend: {},
+    extend: {}, // Add custom styles or configurations here if needed
   },
   variants: {
-    extend: {},
+    extend: {}, // Extend any variants here if necessary
   },
-  plugins: [],
+  plugins: [], // You can add Tailwind plugins here if needed
 }
